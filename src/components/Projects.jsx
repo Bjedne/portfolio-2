@@ -12,13 +12,13 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div key={index} className="border rounded-lg p-4 shadow-md">
-              <img src={project.image} className="w-full h-48 object-cover mb-4 rounded-lg"></img>
+              <img src={project.image} className="w-full h-48 object-cover mb-4 rounded-lg" alt="Preview snaphot of the live site"/>
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p>{project.description}</p>
               <div className="mt-5">
-                <img src="/github.png" className="h-6 w-6 inline-block mr-2"/>
+                <img src="/github.png" className="h-6 w-6 inline-block mr-2" alt="Github logo"/>
                 <a href={project.git} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                <img src="/netlify.png" className="h-6 w-6 inline-block ml-4 mr-2"/>
+                <img src="/netlify.png" className="h-6 w-6 inline-block ml-4 mr-2" alt="LinkedIn logo"/>
                 <a href={project.live} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">View Live</a>
               </div>
             </div>

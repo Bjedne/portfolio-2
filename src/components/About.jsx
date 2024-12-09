@@ -9,23 +9,23 @@ const About = () => {
         </p>
         <div className="flex gap-4 justify-center font-bold">
           <div className="flex space-x-4 mt-8 items-center">
-            <img src="/html.png" className="h-12 w-12"/>
+            <img src="/html.png" className="h-12 w-12" alt="HTML icon"/>
             <span>HTML</span>
           </div>
           <div className="flex space-x-4 mt-8 items-center">
-            <img src="/css.png" className="h-12 w-12"/>
+            <img src="/css.png" className="h-12 w-12" alt="CSS icon"/>
             <span>CSS</span>
           </div>
           <div className="flex space-x-4 mt-8 items-center">
-            <img src="/js.png" className="h-12 w-12"/>
+            <img src="/js.png" className="h-12 w-12" alt="JS icon"/>
             <span>JavaScript</span>
           </div>
           <div className="flex space-x-4 mt-8 items-center">
-            <img src="/react.png" className="h-12 w-12"/>
+            <img src="/react.png" className="h-12 w-12" alt="react icon"/>
           <span>React</span>
           </div>
           <div className="flex space-x-4 mt-8 items-center">
-            <img src="/tailwind.png" className="h-12 w-12"/>
+            <img src="/tailwind.png" className="h-12 w-12" alt="tailwind icon"/>
             <span>Tailwind CSS</span>
           </div>
         </div>
