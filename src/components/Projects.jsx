@@ -16,9 +16,9 @@ const Projects = () => {
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p>{project.description}</p>
               <div className="mt-5">
-                <img src="/github.png" className="h-6 w-6 inline-block mr-2" alt="Github logo"/>
+                <img src="./github.png" className="h-6 w-6 inline-block mr-2" alt="Github logo"/>
                 <a href={project.git} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                <img src="/netlify.png" className="h-6 w-6 inline-block ml-4 mr-2" alt="LinkedIn logo"/>
+                <img src="./netlify.png" className="h-6 w-6 inline-block ml-4 mr-2" alt="LinkedIn logo"/>
                 <a href={project.live} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">View Live</a>
               </div>
             </div>
