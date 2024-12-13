@@ -7,7 +7,7 @@ const About = () => {
           I'm a passionate developer with a love for creating engaging web pages! 
           I specialize in: 
         </p>
-        <div className="flex gap-4 justify-center font-bold">
+        <div className="flex flex-col md:flex-row gap-4 justify-center font-bold">
           <div className="flex space-x-4 mt-8 items-center">
             <img src="./html.png" className="h-12 w-12" alt="HTML icon"/>
             <span>HTML</span>
