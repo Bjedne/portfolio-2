@@ -1,8 +1,8 @@
 const Projects = () => {
   const projects = [
-    { title: 'Best Bids - Semester Project 2', description: 'BestBids is an auction site built using HTML, SASS, Bootstrap and Javascript. It showcases what I learned about the CSS Framework Bootstrap and Javascript.', image: "/sm2.png", git:"https://github.com/Bjedne/sp2.git", live:"https://bjednesp2.netlify.app/" },
-    { title: 'ReactMart - Javascript Frameworks', description: 'React Mart is an e-commerce web application built with React and Tailwind CSS', image: "/jsFramework.png", git:"https://github.com/Bjedne/js-frameworks.git", live:"https://bjednereactmart.netlify.app/" },
-    { title: 'Holidaze - Project Exam 2', description: 'Holidaze is a comprehensive web application designed to help users find and book holiday venues. This project was built using React and Tailwind CSS.', image: "/pe2.png", git:"https://github.com/Bjedne/pe-2.git", live:"https://holidazebjedne.netlify.app/" },
+    { title: 'Best Bids - Semester Project 2', description: 'BestBids is an auction site built using HTML, SASS, Bootstrap and Javascript. It showcases what I learned about the CSS Framework Bootstrap and Javascript.', image: "./sm2.png", git:"https://github.com/Bjedne/sp2.git", live:"https://bjednesp2.netlify.app/" },
+    { title: 'ReactMart - Javascript Frameworks', description: 'React Mart is an e-commerce web application built with React and Tailwind CSS', image: "./jsFramework.png", git:"https://github.com/Bjedne/js-frameworks.git", live:"https://bjednereactmart.netlify.app/" },
+    { title: 'Holidaze - Project Exam 2', description: 'Holidaze is a comprehensive web application designed to help users find and book holiday venues. This project was built using React and Tailwind CSS.', image: "./pe2.png", git:"https://github.com/Bjedne/pe-2.git", live:"https://holidazebjedne.netlify.app/" },
   ];
 
   return (
